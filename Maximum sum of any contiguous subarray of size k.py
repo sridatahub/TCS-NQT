@@ -1,0 +1,12 @@
+def sliding_window(n,arr,k):
+    window_sum=sum(arr[:k])
+    max_sum=window_sum 
+    for i in range(k,n):
+        window_sum=window_sum+arr[i]-arr[i-k]
+        if window_sum>max_sum:
+            max_sum=window_sum
+    print(max_sum)
+n=int(input())
+arr=list(map(int,input().split()))
+k=int(input())
+sliding_window(n,arr,k)

@@ -1,0 +1,5 @@
+word=input() 
+words=word.split() 
+words.reverse() 
+result=" ".join(words) 
+print(result)

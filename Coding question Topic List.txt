@@ -1,0 +1,14 @@
+TCS-NQT	-Coding question Topic List 
+Most Important
+1.Array 
+2.Strings 
+3.Number problems 
+VERY COMMON
+4.Pattern Printing 
+5.Search(Linear / Binary )
+6.Sorting (Bubble/Selection/Insertion)
+SOMETIMES
+7.hashing(frequency, duplicates)
+8.Stack(basic-Valid Parentheses, reverse string)
+9.LinedList (reverse, middle)
+10.Recursion(basic)

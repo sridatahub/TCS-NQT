@@ -1,0 +1,10 @@
+s=input() 
+sub=input() 
+flag=False
+for i in range(len(s)-len(sub)+1):
+    if s[i:i+len(sub)]==sub: 
+        flag=True
+        print(i)
+        break 
+if not flag:
+    print("-1")
